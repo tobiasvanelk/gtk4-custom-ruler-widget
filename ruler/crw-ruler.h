@@ -32,34 +32,34 @@ void crw_ruler_set_range(CrwRuler *ruler, double lower_limit, double upper_limit
  * @param self
  * @return The lower limit of the range.
  */
-double crw_ruler_get_lower_limit(CrwRuler *ruler);
+double crw_ruler_get_lower_limit(CrwRuler *self);
 
 /**
  * Returns the upper limit of the range of a ruler.
  * @param self
  * @return The upper limit of the range.
  */
-double crw_ruler_get_upper_limit(CrwRuler *ruler);
+double crw_ruler_get_upper_limit(CrwRuler *self);
 
 /**
  * Sets the desired width of a ruler.
  *
- * \remark When the self is not set to expand horizontally using \c Gtk.Widget:hexpand,
- * the self will attempt to maintain the given width.
+ * \remark When the ruler is not set to expand horizontally using \c Gtk.Widget:hexpand,
+ * the ruler will attempt to maintain the given width.
  * @param self
  * @param width The desired width.
  */
-void crw_ruler_set_desired_width(CrwRuler *ruler, int width);
+void crw_ruler_set_desired_width(CrwRuler *self, int width);
 
 /**
  * Sets the desired height of a ruler.
  *
- * \remark When the self is not set to expand vertically using \c Gtk.Widget:vexpand,
- * the self will attempt to maintain the given height.
+ * \remark When the ruler is not set to expand vertically using \c Gtk.Widget:vexpand,
+ * the ruler will attempt to maintain the given height.
  * @param self
  * @param height The desired height.
  */
-void crw_ruler_set_desired_height(CrwRuler *ruler, int height);
+void crw_ruler_set_desired_height(CrwRuler *self, int height);
 
 /**
  * Sets the length of the major ticks.

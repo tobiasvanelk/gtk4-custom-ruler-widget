@@ -134,6 +134,24 @@ The length of the tick lines can be set using `crw_ruler_set_major_tick_length()
 
 The minimum spacing in pixels between the major ruler ticks can be set using `crw_ruler_set_min_major_tick_spacing()`.  The currently set range will be displayed using an interval such that the spacing between major ticks is at least of the set size.
 
+## Properties
+
+`Crw.Ruler:desired-width`
+Desired width of the ruler.
+
+When the ruler is not set to expand horizontally using `Gtk.Widget:hexpand`, the ruler will attempt to maintain the given width.
+
+`Crw.Ruler:desired-height`
+Desired height of the ruler.
+
+When the ruler is not set to expand vertically using `Gtk.Widget:vexpand`, the ruler will attempt to maintain the given height.
+
+`Crw.Ruler:major-tick-length`
+The length of the major ticks, expressed as a fraction of the height of a horizontal ruler or the width of a vertical ruler.
+
+`Crw.Ruler:min-major-tick-spacing`
+The minimum spacing in pixels between major ruler ticks.
+
 ## Acknowledgements
 
 Central Park, NYC photo by George Hodan, released under a CC0 Public Domain license.

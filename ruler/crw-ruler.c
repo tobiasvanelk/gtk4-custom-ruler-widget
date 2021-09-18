@@ -732,7 +732,7 @@ static void crw_ruler_class_init(CrwRulerClass *klass)
     props[PROP_MIN_MAJOR_TICK_SPACING] =
             g_param_spec_int("min-major-tick-spacing",
                              "Minimum major tick spacing",
-                             "The length of the major ticks as a fraction of the ruler height.",
+                             "The minimum spacing in pixels between major ruler ticks.",
                              1, G_MAXINT, default_min_major_tick_spacing,
                              G_PARAM_WRITABLE|G_PARAM_EXPLICIT_NOTIFY|G_PARAM_CONSTRUCT);
 
