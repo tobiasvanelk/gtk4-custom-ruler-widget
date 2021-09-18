@@ -6,11 +6,7 @@ The ruler can display a range between two floating point numbers with integer in
 
 ![A screenshot of the ruler widget.](img/screenshot.jpg)
 
-## Table of contents
-
-[TOC]
-
-## Install
+## Installing
 
 The library can be built using CMake and requires version 3.20 or higher.
 
