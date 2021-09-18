@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+    <object id="window" class="GtkWindow">
+        <property name="title">Ruler Demo App</property>
+        <child>
+            <object id="grid" class="GtkGrid">
+                <child>
+                    <object id="scrollwindow" class="GtkScrolledWindow">
+                        <property name="hscrollbar-policy">always</property>
+                        <property name="vscrollbar-policy">always</property>
+                        <layout>
+                            <property name="column">1</property>
+                            <property name="row">1</property>
+                        </layout>
+                    </object>
+                </child>
+                <child>
+                    <object id="hruler" class="CrwRuler">
+                        <property name="orientation">horizontal</property>
+                        <property name="hexpand">1</property>
+                        <layout>
+                            <property name="column">1</property>
+                            <property name="row">0</property>
+                        </layout>
+                    </object>
+                </child>
+                <child>
+                    <object id="vruler" class="CrwRuler">
+                        <property name="orientation">vertical</property>
+                        <property name="vexpand">1</property>
+                        <layout>
+                            <property name="column">0</property>
+                            <property name="row">1</property>
+                        </layout>
+                    </object>
+                </child>
+            </object>
+        </child>
+    </object>
+</interface>
