@@ -1,5 +1,7 @@
 # gtk4-custom-ruler-widget
 
+❗*This repository is not actively maintained!*
+
 A custom widget for GTK 4 which displays a ruler.
 
 The ruler can display a range between two floating point numbers with integer intervals between major ruler ticks. The interval will automatically adjust based on the given range and the allocated width/height for the ruler.
@@ -157,7 +159,3 @@ The minimum spacing in pixels between major ruler ticks.
 Central Park, NYC photo by George Hodan, released under a CC0 Public Domain license.
 
 This ruler is a complete rewrite of the ruler written for [Scroom](https://github.com/kees-jan/scroom), during the 2021 TU/e SEP. Special thanks to Kees-Jan Dijkzeul, the maintainer of Scroom, for his advice during the project.
-
-## TODO
-
- * Add font styling through CSS (preferred) or properties.
